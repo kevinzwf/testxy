@@ -1,5 +1,5 @@
 -- MySQL dump 10.16  Distrib 10.1.24-MariaDB, for Linux (x86_64)
---
+-- 
 -- Host: localhost    Database: finecms
 -- ------------------------------------------------------
 -- Server version	10.1.24-MariaDB
