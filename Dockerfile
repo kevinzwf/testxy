@@ -3,7 +3,7 @@ MAINTAINER test "wfzhu@alauda.io"
 RUN yum update -y
 RUN yum install -y php-mcrypt mcrypt && yum clean all
 #ADD dayrui-finecms-master.zip /tmp
-ADD finecms.tgz /
+ADD finecms.tgz /var/www/html
 ADD mysql.fine.sql /
 ADD run.sh /run.sh
 #RUN tar -xzf /finecms.tgz -C /var/www/html/ && chown -R apache. /var/www/html/
