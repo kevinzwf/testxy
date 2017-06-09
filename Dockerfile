@@ -6,7 +6,7 @@ RUN yum install -y php-mcrypt mcrypt && yum clean all
 ADD finecms.tgz /
 ADD mysql.fine.sql /
 ADD run.sh /run.sh
-RUN tar -xzf /finecms.tgz -C /var/www/html/ && chown -R apache. /var/www/html/
+#RUN tar -xzf /finecms.tgz -C /var/www/html/ && chown -R apache. /var/www/html/
 RUN chmod a+x /run.sh
 EXPOSE 80
 ENTRYPOINT ["/run.sh"]
